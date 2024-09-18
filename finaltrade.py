@@ -110,4 +110,4 @@ if (response.json()['choices'][0]['message']['content']) == "Buy.":
 elif (response.json()['choices'][0]['message']['content']) == "Sell.":
     sell()
 else:
-    print("No trade made. Lock the fuck in.")
+    print("No trade made.")
