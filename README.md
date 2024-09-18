@@ -1,1 +1,1 @@
-LOCK IN
+This is a script written in python that's fairly simple. It takes an input in the form of a stock ticker symbol, retrieves the data that covers all the trades on that ticker in the last minute, and then sends a query through the openai api that includes the stock and data. It then asks for an analysis and based on the response from the openai api it makes a trade on that ticker through the same api used to retrieve the data.
